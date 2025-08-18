@@ -1,7 +1,11 @@
 package src.fundamental.types;
 
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.io.IOException;
+
 public class Lab3_Strings {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         String message = "Hello Developer";
         System.out.println("String : " + message + "!!");
 
@@ -26,5 +30,30 @@ public class Lab3_Strings {
         System.out.println(name);
         System.out.println("Remove Spaces : " + name.trim());
 
+        System.out.println("-----------------------------------------------------------------------------------------");
+
+        String str = new String("Hello");
+        System.out.println(str);
+
+        char arr[] = {'C','H','A','I','R','S'};
+        String str2 = new String(arr,2,4); // form indexing 2 return 3 character
+        System.out.println(str2);
+
+        String cityFirstName = "Hydera";
+        String cityLastName = "bad";
+        System.out.println(cityFirstName.concat(cityLastName));      // concat cityFirstName & LastName
+        System.out.println(cityFirstName.replace('a', 'e'));
+        String newString = "Hello, Welcome to My Java University";
+        char arr2[] = new char[20];
+        newString.getChars(7,23,arr2,0);
+        System.out.println(arr2);
+
+        System.out.println("-----------------------------------------------------------------------------------------");
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+
+        System.out.print("Enter your name: ");
+        String name_dijiye = br.readLine();
+
+        System.out.println("Namaste, " + name_dijiye + "! java me apka Swagat hai.");
     }
 }
