@@ -1,4 +1,4 @@
-package fundamental.types;
+package src.fundamental.types;
 
 public class Lab2_Variables_DataTypes {
     public static void main(String[] args) {
@@ -13,7 +13,7 @@ public class Lab2_Variables_DataTypes {
         System.out.println("Char : " + single_character);
         float float_Value = 0.77F;         // if we don't tell the datatype using casting as F
                                             //because Java take the 0.77 as int .
-
+z
         System.out.println("float-Value : " + float_Value);
         double decimalValue = 8.9799994903;
         System.out.println("Double-Value : " + decimalValue);
