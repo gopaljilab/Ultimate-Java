@@ -1,4 +1,4 @@
-package java.fundamental.introduction;
+package java.fundamental.types;
 
 public class Lab2_Variables_DataTypes {
     public static void main(String[] args) {
