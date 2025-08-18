@@ -1,4 +1,4 @@
-package fundamental.types;
+package src.fundamental.types;
 
 public class Lab1_FirstJavaProgram {
     public static void main(String[] args) {
