@@ -1,6 +1,6 @@
 package src.fundamental.controlFlow;
 
-public class Lab10_2Operators {
+public class Lab1_2Operators {
     public static void main(String[] args) {
         int number1 = 3;
         int number2 = 3;
