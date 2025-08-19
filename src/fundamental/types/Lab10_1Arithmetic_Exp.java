@@ -1,6 +1,6 @@
 package src.fundamental.types;
 
-public class Lab6_1Arithmetic_Exp {
+public class Lab9_1Arithmetic_Exp {
     public static void main(String[] args) {
         int num1 = 3,num2 = 4;
         System.out.println("Num1 = " + num1);

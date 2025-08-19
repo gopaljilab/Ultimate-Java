@@ -1,4 +1,4 @@
 package src.fundamental.types;
 
-public class Lab6_2Operators {
+public class Lab7_MathClass {
 }
