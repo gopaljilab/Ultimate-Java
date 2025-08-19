@@ -2,7 +2,7 @@ package src.fundamental.types;
 
 import java.util.Arrays;
 
-public class Lab5_1array {
+public class Lab5_2array {
     public static void main(String[] args) {
         // Notice: size is 9, but we use only first 8 elements
         int[] arr = new int[9];
@@ -18,6 +18,11 @@ public class Lab5_1array {
         insertElement(arr, number, position, length);
         length++; // now 9 elements
         System.out.println("After Add  : " + Arrays.toString(arr));
+
+        System.out.println("Before Delete : " + Arrays.toString(arr));
+        int element = 10;
+        deleteElement(arr,element);
+        System.out.println("After Delete : " + Arrays.toString(arr));
     }
 
     private static void insertElement(int[] arr, int number, int position, int length) {
@@ -27,6 +32,18 @@ public class Lab5_1array {
         }
         // Insert new element
         arr[position] = number;
+    }
+
+
+    private static void deleteElement(int[] arr, int element){
+        for (int i = 0; i< arr.length; i++){
+            if (element == arr[i]){
+                for (int j = i; j< arr.length-1; j++){
+                    arr[i] = arr[i+1];
+                }
+                break;
+            }
+        }
     }
 
 }

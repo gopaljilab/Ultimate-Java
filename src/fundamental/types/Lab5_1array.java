@@ -2,7 +2,7 @@ package src.fundamental.types;
 
 import java.util.Arrays;
 
-public class Lab5_2array {
+public class Lab5_1array {
     public static void main(String[] args) {
         int[] arr = {12,13,2,3,3,1,4,5,25,36};
         System.out.println(Arrays.toString(arr));    // For Printing the String
