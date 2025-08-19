@@ -1,6 +1,6 @@
-package src.fundamental.types;
+package src.fundamental.controlFlow;
 
-public class Lab9_2Operators {
+public class Lab10_2Operators {
     public static void main(String[] args) {
         int number1 = 3;
         int number2 = 3;
@@ -16,6 +16,10 @@ public class Lab9_2Operators {
         System.out.println("Number1 >= Number2 : " + (number1 >= number2));      // greater than equals to operator return true or false
         System.out.println("Number1 >= Number2 : " + (number1 <= number2));      // less than equals to operator return true or false
 
-        System.out.println("");
+        System.out.println("----------------------------------- logical operator -----------------------------------");
+
+        System.out.println("number1 < 10 && number2 > 1 = " + (number1 < 10 && number2 > 1));   //if both condition is true return true
+        System.out.println("number1 > 10 || number2 > 1 = " + (number1 > 10 || number2 < 1));  // if any one is true return true
+        System.out.println("!(x === y) = "+ !(number1 == number2)); // it return the opposite of if its giving true its return false
     }
 }
