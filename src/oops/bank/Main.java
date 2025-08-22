@@ -1,4 +1,4 @@
-package src.oops;
+package src.oops.bank;
 
 public class Main {
 }
