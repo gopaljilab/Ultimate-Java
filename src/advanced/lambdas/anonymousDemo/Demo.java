@@ -1,4 +1,4 @@
-package src.advanced.lambdas;
+package src.advanced.lambdas.anonymousDemo;
 
 interface Greeting {
     void sayHello();
