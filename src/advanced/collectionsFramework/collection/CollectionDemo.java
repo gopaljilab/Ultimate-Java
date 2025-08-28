@@ -13,7 +13,7 @@ public class CollectionDemo {
 //        System.out.println(collection.isEmpty());
 //        System.out.println(collection.remove("a"));
 
-        
+
         System.out.println(collection);
 
     }

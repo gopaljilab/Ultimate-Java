@@ -1,4 +1,4 @@
-package src.advanced.collection.iterable;
+package src.advanced.collectionsFramework.iterable;
 
 import java.util.Iterator;
 
