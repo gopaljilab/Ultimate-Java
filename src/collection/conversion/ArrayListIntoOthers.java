@@ -1,9 +1,8 @@
 package src.collection.conversion;
 
 import java.util.*;
-import java.util.stream.Collectors;
 
-public class ArrayIntoOthers {
+public class ArrayListIntoOthers {
     public static void main(String[] args) {
         ArrayList<String> arrayList = new ArrayList<>(Arrays.asList("Banana", "Apple", "Mango"));
         System.out.println("ArrayList : " + arrayList);
