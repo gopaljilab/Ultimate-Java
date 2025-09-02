@@ -52,9 +52,30 @@ public class Demo {
         System.out.println(integerList);
 
         Iterator<Integer> iterator = integerList.iterator();
-        while (iterator.hasNext()){
+        /*while (iterator.hasNext()){
             iterator.remove();
-        }
+        }*/
+
+        //Shuffling a List
+
+        List<String> stringList = Arrays.asList("hello","World", "I", "Am", "Here");
+        Collections.shuffle(stringList);
+        System.out.println(stringList);
+
+
+        List<String> students_1 = Arrays.asList("Foo", "Bar", "Baz", "Qux");
+        List<String> students_2 = Arrays.asList("Foo", "Bar", "Baz", "Qux");
+
+        int seedValue = 10;
+
+        Collections.shuffle(students_1, new Random(seedValue));
+        Collections.shuffle(students_2, new Random(seedValue));
+
+        System.out.println(students_1);
+        System.out.println(students_2);
+
+        System.out.println(students_1.equals(students_2));
+
 
     }
 }
