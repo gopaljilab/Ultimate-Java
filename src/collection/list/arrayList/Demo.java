@@ -1,7 +1,6 @@
-package src.collection.arrayList;
+package src.collection.list.arrayList;
 
 import java.util.*;
-import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 import java.util.stream.LongStream;
 
