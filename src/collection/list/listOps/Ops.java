@@ -2,7 +2,7 @@ package src.collection.list.listOps;
 
 import java.util.*;
 
-public class Main {
+public class Ops {
     public static void main(String[] args) {
         List<Integer> source = Arrays.asList(1,2,3,4);
         List<Integer> dest = new ArrayList<>(Arrays.asList(5,6,7,8));
