@@ -1,4 +1,4 @@
-package src.collection.conversion;
+package src.collection.list.conversion;
 
 import java.util.*;
 
