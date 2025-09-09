@@ -49,6 +49,12 @@ public class ArrayListIntoOthers {
         Set<String> set = new HashSet<>(arrayList);
         System.out.println("Into Set : " + set);
 
+        int[] input = new int[]{1,2,3,4};
+        List<Integer> output = new ArrayList<>();
+        for(int value : input){
+            output.add(value);
+        }
+        System.out.println(output);
 
     }
 }

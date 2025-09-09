@@ -1,0 +1,30 @@
+📘 Memory Comparison: Stack vs ArrayDeque
+🔹 1. Stack (via Vector)
+Stack is built on top of Vector.
+Growth policy: when full, capacity doubles (100% growth).
+
+Example:
+Start capacity = 10
+After exceeding → 20 → 40 → 80 → 160 …
+
+Effect:
+Uses more memory suddenly (sometimes much more than you actually need).
+It may waste memory if your data size fluctuates a lot.
+
+🔹 2. ArrayDeque
+Internally uses a resizable array too.
+Growth policy: when full, capacity increases by 50%.
+
+Example:
+Start capacity = 16
+After exceeding → 24 → 36 → 54 → …
+
+Effect:
+Expands more gradually, which is a memory-efficient approach.
+Avoids sudden big jumps in memory usage.
+
+🔹 3. Memory Efficiency Summary
+Feature	            Stack (Vector)	             ArrayDeque
+Growth factor: 	    100% (doubles)	                 50% (1.5×)
+Memory usage:	 can over-allocate a lot       More efficient, smoother growth
+Waste:          Higher risk of unused memory         Lower risk
